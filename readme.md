@@ -2,8 +2,8 @@
 
 
 ## 2020年6月完成 ##
-###北京工业大学###
-####环境 ModelSim SE 10.1a####
+### 北京工业大学
+#### 环境 ModelSim SE 10.1a####
 
 1. Project1_VerilogHDL完成单周期处理器开发(1)
 2. Project2+VerilogHDL完成多周期处理器开发
