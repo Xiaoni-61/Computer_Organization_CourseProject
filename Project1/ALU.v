@@ -1,0 +1,61 @@
+module ALU(clk,ALU_OP,A,B,ALUOut,Zero,OF);
+input clk;
+input[2:0] ALU_OP;
+input[31:0] A,B;
+output reg [31:0] ALUOut;
+output reg Zero;
+output reg OF;       //zero?0????OF?addi?????
+reg C;
+reg  [32:0]Ain,Bin,result;
+always@(*)
+begin
+
+case(ALU_OP)
+    
+    3'b000:ALUOut=A+B;  
+    3'b001:ALUOut=A-B;
+    3'b010:ALUOut=A&B;
+    3'b011:ALUOut=A|B;
+    3'b100:ALUOut=A^B;
+    3'b101:begin if((A[31]==0)&&(B[31]==0))
+                    begin
+                      if(A<B)
+                        ALUOut=1;
+                      else
+                        ALUOut=0;
+                    end
+                  else if((A[31]==1)&&(B[31]==0))
+                    begin
+                      ALUOut=1;
+                    end
+                  else if((A[31]==0)&&(B[31]==1))
+                    begin
+                      ALUOut=0;
+                    end
+                  else if((A[31]==0)&&(B[31]==0))
+                    begin
+                      if(A<B)
+                        ALUOut=0;
+                      else
+                        ALUOut=1;
+                    end
+                  
+            end
+            
+    3'b110:begin
+            Ain={A[31],A};
+            Bin={B[31],B};
+            result =Ain+Bin;
+            ALUOut=result[31:0];
+            C=result[32]^result[31];
+          end
+          
+    default: begin  end
+    endcase
+
+    Zero=((ALUOut==32'h00000000)?1:0);   
+    
+    OF  =((C==1'b1)?1:0);
+end
+endmodule
+

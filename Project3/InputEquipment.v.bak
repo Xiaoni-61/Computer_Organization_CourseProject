@@ -1,0 +1,9 @@
+module InputEquipment(inn,addr,keyout);
+  input [31:0]inn;
+  input [3:2]addr;
+  output [31:0]keyout;
+  
+  assign keyout=(addr==0)?inn:32'h0000_0000;
+  
+  
+endmodule

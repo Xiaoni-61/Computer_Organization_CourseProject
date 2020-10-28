@@ -1,0 +1,27 @@
+module ALU_test;
+  reg clk;
+  reg [2:0] ALU_OP;
+  reg [31:0] A,B;
+  wire [31:0] ALUOut;
+  wire Zero,OF;
+  //ifu i1(clk,reset,npc_sel,zero,insout);
+  ALU i1(clk,ALU_OP,A,B,ALUOut,Zero,OF);
+  initial
+  begin
+    clk=1;
+    A=32'hFF00_3000;
+    B=32'hFFFF_2900;
+    
+    #50 ALU_OP=3'b000;
+    #50 ALU_OP=3'b001;
+    #50 ALU_OP=3'b010;
+    #50 ALU_OP=3'b011;
+    #50 ALU_OP=3'b100;
+    #50 ALU_OP=3'b101;
+  end  
+  
+  always
+    #25 clk=~clk;
+    
+ endmodule   
+

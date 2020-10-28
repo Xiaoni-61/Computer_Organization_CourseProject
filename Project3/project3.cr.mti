@@ -1,0 +1,176 @@
+D:/example/project3/ir.v {1 {vlog -work work -vopt D:/example/project3/ir.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} D:/example/project3/m1.v {1 {vlog -work work -vopt D:/example/project3/m1.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module M1
+
+Top level modules:
+	M1
+
+} {} {}} D:/example/project3/tc.v {1 {vlog -work work -vopt {D:\example\project3\tc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module tc
+
+Top level modules:
+	tc
+
+} {} {}} D:/example/project3/m2.v {1 {vlog -work work -vopt D:/example/project3/m2.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module M2
+
+Top level modules:
+	M2
+
+} {} {}} D:/example/project3/IF.v {1 {vlog -work work -vopt D:/example/project3/IF.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IF
+
+Top level modules:
+	IF
+
+} {} {}} D:/example/project3/InputEquipment.v {1 {vlog -work work -vopt D:/example/project3/InputEquipment.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module InputEquipment
+
+Top level modules:
+	InputEquipment
+
+} {} {}} D:/example/project3/mips_test.v {1 {vlog -work work -vopt D:/example/project3/mips_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips_test
+
+Top level modules:
+	mips_test
+
+} {} {}} D:/example/project3/m3.v {1 {vlog -work work -vopt D:/example/project3/m3.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module M3
+
+Top level modules:
+	M3
+
+} {} {}} D:/example/project3/ALUtoDM_addr.v {1 {vlog -work work -vopt D:/example/project3/ALUtoDM_addr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALUtoDM_addr
+
+Top level modules:
+	ALUtoDM_addr
+
+} {} {}} D:/example/project3/mach.v {1 {vlog -work work -vopt D:/example/project3/mach.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mach
+
+Top level modules:
+	mach
+
+} {} {}} D:/example/project3/EXT.v {1 {vlog -work work -vopt D:/example/project3/EXT.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} D:/example/project3/ALU.v {1 {vlog -work work -vopt D:/example/project3/ALU.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/example/project3/cp0.v {1 {vlog -work work -vopt {D:\example\project3\cp0.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module CP0
+
+Top level modules:
+	CP0
+
+} {} {}} D:/example/project3/ifu.v {1 {vlog -work work -vopt D:/example/project3/ifu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ifu
+
+Top level modules:
+	ifu
+
+} {} {}} D:/example/project3/contro.v {1 {vlog -work work -vopt {D:\example\project3\contro.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module contro
+
+Top level modules:
+	contro
+
+} {} {}} D:/example/project3/mach_text.v {1 {vlog -work work -vopt D:/example/project3/mach_text.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mach_test
+
+Top level modules:
+	mach_test
+
+} {} {}} D:/example/project3/bridge.v {1 {vlog -work work -vopt D:/example/project3/bridge.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module bridge
+
+Top level modules:
+	bridge
+
+} {} {}} D:/example/project3/sb.v {1 {vlog -work work -vopt D:/example/project3/sb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sb
+
+Top level modules:
+	sb
+
+} {} {}} D:/example/project3/register.v {1 {vlog -work work -vopt D:/example/project3/register.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} D:/example/project3/im.v {1 {vlog -work work -vopt D:/example/project3/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}} D:/example/project3/mips.v {1 {vlog -work work -vopt D:/example/project3/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} D:/example/project3/OutputEquipment.v {1 {vlog -work work -vopt D:/example/project3/OutputEquipment.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module OutputEquipment
+
+Top level modules:
+	OutputEquipment
+
+} {} {}} D:/example/project3/DM.v {1 {vlog -work work -vopt D:/example/project3/DM.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}} D:/example/project3/GPR.v {1 {vlog -work work -vopt D:/example/project3/GPR.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPR
+
+Top level modules:
+	GPR
+
+} {} {}} D:/example/project3/doutchange.v {1 {vlog -work work -vopt D:/example/project3/doutchange.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module doutchange
+
+Top level modules:
+	doutchange
+
+} {} {}}

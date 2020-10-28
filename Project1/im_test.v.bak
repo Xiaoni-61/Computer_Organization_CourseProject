@@ -1,0 +1,22 @@
+module ALU_test;
+  reg [9:0] addr; 
+  wire [31:0] dout;
+ 
+  im_1k i1(addr,dout);   //1kb,addr is pc
+  
+  
+  initial
+  begin
+    
+    addr=10'b0000000000;
+    
+    
+    $readmemh("code.txt",i1.im);
+    #20 addr=addr+4;
+    #20 addr=addr+4;
+    #20 addr=addr+4;
+    
+  end
+  endmodule   
+
+

@@ -1,0 +1,179 @@
+D:/example/ifu/EXT.v {1 {vlog -work work -vopt D:/example/ifu/EXT.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} D:/example/ifu/ALU_test.v {1 {vlog -work work -vopt D:/example/ifu/ALU_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALU_test
+
+Top level modules:
+	ALU_test
+
+} {} {}} D:/example/ifu/ALU.v {1 {vlog -work work -vopt D:/example/ifu/ALU.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/example/ifu/ifu_test.v {1 {vlog -work work -vopt D:/example/ifu/ifu_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ifu_test
+
+Top level modules:
+	ifu_test
+
+} {} {}} D:/example/ifu/ifu.v {1 {vlog -work work -vopt D:/example/ifu/ifu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ifu
+
+Top level modules:
+	ifu
+
+} {} {}} D:/example/ifu/contro.v {1 {vlog -work work -vopt {D:\example\ifu\contro.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module contro
+
+Top level modules:
+	contro
+
+} {} {}} D:/example/ifu/im_test.v {1 {vlog -work work -vopt D:/example/ifu/im_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_test
+
+Top level modules:
+	im_test
+
+} {} {}} D:/example/ifu/M2_test.v {1 {vlog -work work -vopt D:/example/ifu/M2_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module M2_test
+
+Top level modules:
+	M2_test
+
+} {} {}} D:/example/ifu/im.v {1 {vlog -work work -vopt D:/example/ifu/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}} D:/example/ifu/EXT_test.v {2 {vlog -work work -vopt D:/example/ifu/EXT_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EXT_test
+** Warning: D:/example/ifu/EXT_test.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	EXT_test
+
+} {} {}} D:/example/ifu/mips.v {1 {vlog -work work -vopt D:/example/ifu/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} D:/example/ifu/DM.v {1 {vlog -work work -vopt D:/example/ifu/DM.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}} D:/example/ifu/GPR.v {2 {vlog -work work -vopt D:/example/ifu/GPR.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPR
+** Warning: D:/example/ifu/GPR.v(25): (vlog-2643) Unterminated string literal continues onto next line.
+
+** Warning: D:/example/ifu/GPR.v(28): (vlog-2643) Unterminated string literal continues onto next line.
+
+** Warning: D:/example/ifu/GPR.v(31): (vlog-2643) Unterminated string literal continues onto next line.
+
+** Warning: D:/example/ifu/GPR.v(34): (vlog-2643) Unterminated string literal continues onto next line.
+
+
+Top level modules:
+	GPR
+
+} {} {}} D:/example/ifu/ir.v {1 {vlog -work work -vopt D:/example/ifu/ir.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} D:/example/ifu/M1_test.v {1 {vlog -work work -vopt D:/example/ifu/M1_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module M1_test
+
+Top level modules:
+	M1_test
+
+} {} {}} D:/example/ifu/M1.v {1 {vlog -work work -vopt D:/example/ifu/M1.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module M1
+
+Top level modules:
+	M1
+
+} {} {}} D:/example/ifu/text2.v {1 {vlog -work work -vopt D:/example/ifu/text2.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module text2
+
+Top level modules:
+	text2
+
+} {} {}} D:/example/ifu/M2.v {1 {vlog -work work -vopt D:/example/ifu/M2.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module M2
+
+Top level modules:
+	M2
+
+} {} {}} D:/example/ifu/IF.v {1 {vlog -work work -vopt D:/example/ifu/IF.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IF
+
+Top level modules:
+	IF
+
+} {} {}} D:/example/ifu/GPR_test.v {1 {vlog -work work -vopt D:/example/ifu/GPR_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPR_test
+
+Top level modules:
+	GPR_test
+
+} {} {}} D:/example/ifu/DM_test.v {1 {vlog -work work -vopt D:/example/ifu/DM_test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module DM_test
+
+Top level modules:
+	DM_test
+
+} {} {}} D:/example/ifu/test.v {1 {vlog -work work -vopt D:/example/ifu/test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} D:/example/ifu/ALUtoDM_addr.v {1 {vlog -work work -vopt D:/example/ifu/ALUtoDM_addr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALUtoDM_addr
+
+Top level modules:
+	ALUtoDM_addr
+
+} {} {}} D:/example/ifu/M3.v {1 {vlog -work work -vopt D:/example/ifu/M3.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module M3
+
+Top level modules:
+	M3
+
+} {} {}}
